@@ -1,6 +1,6 @@
 <?php
 
-namespace OfflineDetection\Providers;
+namespace Highvertical\OfflineDetection\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
