@@ -1,0 +1,28 @@
+{
+    "name": "highvertical/offline-detection",
+    "description": "Robust laravel package to detect offline internet connection",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Highvertical\\OfflineDetection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Highvertical",
+            "email": "highverticaltechnologies@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Highvertical\\OfflineDetection\\Providers\\OfflineDetectionServiceProvider"
+            ]
+        }
+    }
+}
