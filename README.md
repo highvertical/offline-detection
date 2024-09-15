@@ -15,7 +15,7 @@ This package provides real-time internet connection monitoring for Laravel appli
 1. Install the package via Composer (if you’re planning to publish this package, otherwise just copy the files into your Laravel project).
 
     ```bash
-    composer require your-namespace/offline-detection
+    composer require highvertical/offline-detection
     ```
 
 2. Publish the package assets (views, config, and JS files):
